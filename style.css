@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #f39c12, #8e44ad);
+    color: #ffffff;
+}
+
+.app-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+p {
+    color: #c0392b;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+
+img {
+    max-width: 100%;  /* Adjust the maximum width as needed */
+    height: auto;     /* Maintain the aspect ratio */
+    border-radius: 15px;
+    display: none;
+    margin: auto;
+}
